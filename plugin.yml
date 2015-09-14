@@ -1,0 +1,16 @@
+name: NameColor
+version: 1.0.0
+description: Utility Plugin
+depend: [Vault]
+author: Fahlur
+main: me.Fahlur.NameColor.main
+
+commands:
+  namecolor:
+      description: Name color command
+      aliases: [nc]
+      usage: /namecolor
+    
+Permissions:
+  NameColor:
+    description: Gives access to the namecolor command
