@@ -102,7 +102,6 @@ public class main
 	    count++;
     }
     for(String s : worldNames){
-    	System.out.println("World Names = " + s);
     	chat.setPlayerPrefix(s, player, "&" + color.getChar());
     }
     player.sendMessage(ChatColor.RED + "Name color has been changed to: " + color + color.name());
