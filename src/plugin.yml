@@ -10,7 +10,3 @@ commands:
       description: Name color command
       aliases: [nc]
       usage: /namecolor
-    
-Permissions:
-  NameColor:
-    description: Gives access to the namecolor command
